@@ -8,6 +8,7 @@ GERMANIC = "Germanic"
 LATIN = "Latin"
 ORIGINS = [GERMANIC, LATIN]
 
+# PUT YOUR PATH HERE
 nltk.data.path.append("/home/justin/Documents/nltk_data")
 WORD_NET = WordNetLemmatizer()
 
